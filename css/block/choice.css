@@ -1,0 +1,23 @@
+.choice__title {
+    color: var(--color-wave);
+}
+.choice__item {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-white);
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.choice__item .item__img {
+    height: 280px;
+}
+
+.choice__item .item__img img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.choice__item .item__btn {
+    background-color: var(--color-darkviolet);
+}
